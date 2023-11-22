@@ -1,4 +1,3 @@
-const wallets = require("./wallets.json");
 const ethers = require("ethers");
 const editJsonFile = require("edit-json-file");
 
