@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "@sushiswap/limit-order-sdk": "^1.0.0-canary.20",
+    "@sushiswap/sdk": "^5.0.0-canary.116",
+    "edit-json-file": "^1.7.0",
+    "web3": "^4.2.2",
+    "yesno": "^0.4.0"
+  }
+}
