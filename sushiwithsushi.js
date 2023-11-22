@@ -1,7 +1,9 @@
 const ethers = require("ethers");
 const editJsonFile = require("edit-json-file");
 
-const walletsFile = editJsonFile(`${__dirname}/wallets.json`);
+const walletsFile = editJsonFile(`${__dirname}/wallets.json`, {
+  autosave: true,
+});
 
 const wallets = walletsFile.toObject();
 
